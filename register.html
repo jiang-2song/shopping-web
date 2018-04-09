@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	
+		<style>
+			body{
+				background:url(../images/background.jpg) center center no-repeat;
+				
+				color: white;
+			}
+			.num{
+				border: 1px solid red;
+				width: 360px;
+				height: 58px;
+				margin: 0 auto;
+				padding: 0 20px;
+				position: relative;
+			}
+		 span{
+		 	line-height: 58px;
+		 	margin-right: 25px;
+		 }
+		 input{border: 0;
+		background:transparent;
+		 outline: none;
+		 color: white;
+		 }
+		 .nom{
+		 	border: 1px solid #CCCCCC;
+		 	width: 400px;
+		 	height: 32px;
+		 	margin: 0 auto;
+		 	margin-top: 10px;
+		 }
+		 i{
+		    
+		    /* top: 10px;*/
+		  font-style: normal;
+		 	font-size: 12px;
+		 	color: yellow;
+		 	
+		 }
+		 .nom{
+		 	font-size: 12px;
+		 	
+		 	border: 0;
+		 	color: white;
+		 }
+		 .one{
+		 	text-align: center;
+		 	border: 1px solid red;
+				width: 400px;
+				height: 58px;
+				margin: 0 auto;
+				padding: 0 20px;
+				font-size: 24px;
+				text-align: center;
+				line-height: 58px;
+				color: white;
+				background: red;
+				margin-left: 470px;
+		 }
+		</style>
+	</head>
+	<body>
+		<form action="../php/register.php" method="post">
+		<div class="num">
+			<span>用户名</span><input type="text" value="您的账户名和登录名"  name="username"/>
+			<i ></i>
+		</div>
+		<div class="nom"></div>
+		<div class="num">
+			<span>设置密码</span><input type="password" value="........." name="password" />
+			<i ></i>
+		</div>
+		<div class="nom"></div>
+		<div class="num">
+			<span>确认密码</span><input type="text" value="请确认您的账户名和登录名" />
+			<i ></i>
+		</div>
+		<div class="nom"></div>
+		<div class="num">
+			<span>中国0086</span><input type="text" value="建议使用常用手机" name="telphone" />
+			<i ></i>
+		</div>
+		<div class="nom"></div>
+		<div class="num">
+			<span>验证码</span><input type="text" value="请输入验证码" />
+			<i class="changing">获取验证码</i>
+		</div>
+		<div class="nom"></div>
+		<input type="submit" class="one" name="submit" value="注册"><a href="index.html"></a></input>
+		</form>
+		<script src="../javascript/jquery-1.11.3.js"></script>
+	    <script src="../javascript/register.js"></script>
+	</body>
+</html>

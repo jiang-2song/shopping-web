@@ -1,0 +1,152 @@
+#header{
+    width: 1333px;
+    height: 77px;
+    border-bottom: 3px solid red;
+    margin: 0 auto;
+    padding: 5px 0;
+    margin-bottom: 10px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.header-left{
+    width: 195px;
+    height: 63px;
+    background: #0055AC;
+}
+.header-right{
+    height: 73px;
+    padding: 15px 0;
+   text-align: right;
+}
+.right-top a{
+    font-size: 14px;
+    color: #0000FE;
+    font-weight: bold;
+}
+.right-down a{
+    font-size: 13px;
+}
+.header-right a:hover{
+    text-decoration: none;
+}
+#midder{
+    width: 100%;
+    margin-bottom: 50px;
+}
+#midder .midder-wrapper{
+    width: 850px;
+    margin: 0 auto;
+}
+.num-1{
+      width: 100%;
+}
+.num-1:after{
+      clear: both;
+      content: ".";
+      display: block;
+      height: 0;
+      visibility: hidden;
+      overflow: hidden;
+}
+.language-change{
+    float: right;
+    a{
+        font-size: 13px;
+    }
+    span{
+        font-weight: bold;
+        font-size: 13px;
+    }
+}
+.num-2{
+    padding: 5px 5px;
+    width: 100%;
+    height: 35px;
+    background: #eeeeee;
+    font-size: 14px;
+    margin-bottom: 15px;
+    
+}
+.num-3{
+    margin-bottom: 8px;
+    P{
+        font-size: 14px;
+   }  
+}
+.login-left{
+    width: 394px;
+    height: 390px;
+    border: 2px solid #959494;
+    padding: 5px;
+    background: #EEEEEE;
+    .login-inner{
+        background: white;
+     
+       padding: 18px 6px 5px;
+      
+    
+    h3{
+        border-left: 6px solid red;
+        font-size: 16px;
+        font-weight: bold;
+        height: 30px;
+        line-height: 30px;
+        padding-left: 6px;
+        margin-bottom: 8px;
+    }
+    }
+}
+.login-border:after{
+      clear: both;
+      content: ".";
+      display: block;
+      height: 0;
+      visibility: hidden;
+      overflow: hidden;
+}
+.login-inner label{
+    margin: 15px 25px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.login-inner input{
+    width: 240px;
+    margin: 15px 0;
+}
+.login-right{
+    text-align: center;
+    width: 347px;
+    margin-left: 30px;
+    h2{
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .free-login{
+        width: 311px;
+        height: 48px;
+        background-image: url(../images/bg_btn_red_top.gif);
+        background-repeat: no-repeat;
+        border-radius: 5px;
+        text-align: left;
+        padding: 5px 10px;
+        position: relative;
+       a{
+           text-decoration: none;
+            color: white;
+            font-size: 17px;
+            font-weight: bold;
+        }  
+    }
+}
+#footer{
+    width: 100%;
+    p{
+        text-align: center;
+        font-size: 14px;
+        line-height: 36px;
+    }
+}

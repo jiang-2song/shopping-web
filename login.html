@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="../css/iconfont.css"/>
+		<link rel="stylesheet" href="../sasscss/login.css" />
+	</head>
+	<body>
+		<div id="header">
+			<div class="header-left left"></div>
+		    <div class="header-right right">
+		    	<p class="right-top"><a href="#">日本乐天市场</a></p>
+		    	<p class="right-down"><a href="#">帮助页面</a></p>
+		    </div>
+		</div>
+		
+		<div id="midder">
+			<div class="midder-wrapper">
+				<!--第一部分-->
+				<div class="num-1">
+				<p class="language-change">
+					<a href="#">日本语&nbsp;</a>|
+					<a href="#">English&nbsp;</a>|
+					<span>简体中文</span>
+				</p>
+				</div>
+				<!--第二部分-->
+				<div class="num-2">
+					请不要在其他网络服务或账户上使用相同的用户名或密码。</br>
+					另外，我们强烈建议你在注册时使用<a href="#">登录提醒功能</a>以提高你的账户的安全性。
+				</div>
+				<!--第三部分-->
+				<div class="num-3">
+					<p><img style="width: 106px;height: 26px;" src="../images/id_r_logo_input_wmargin@2x.png"/>如需使用本服务，请登录。</p>
+				    <div class="login-border">
+				    	<section class="login-left left">
+				    		<div class="login-inner" style="margin-bottom: 20px;">	
+				    		<h3>日本乐天用户登录</h3>
+				    		<form action="../php/login.php" method="post" onsubmit="return false;">
+				    			<label>用户名</label><input type="text" id="t" name="username" value=""/></br>
+				    			<label>&nbsp;密码&nbsp;&nbsp;</label><input id="p" type="text" name="password" /><br />
+				    			<input type="submit" value="登录" id="btn" style="margin-left: 88px; width: 190px;height: 40px;" />
+				    		</form>
+				    		<p>同意日本乐天的<a href="#">隐私权保护政策</a><span style="color: #666666;">(2017年2月13日更新)</span>并登陆</p>
+				    		<p><input type="checkbox" style="margin: 0 0 0 60px;width: 13px;"><label style="margin: 0; font-weight: normal;">关闭浏览器自动退出登录状态</label><a href="#">详情</a></p>
+				    		<p style="color: #666666;text-align: center;">(如果你正在使用的是公共电脑，请勾选这个方框)</p>
+				    		</div>
+				    		<div class="login-down">
+				    			<p><img style=" margin-right: 5px;" src="../images/pop.gif" ><a href="#">忘记了你的用户名或密码？</a></p>
+				    			<p><img style=" margin-right: 5px;" src="../images/pop.gif" ><a href="#">帮助</a></p>
+				    			<p style="background-image: url(../images/ssl.gif); background-repeat: no-repeat; background-position: 15px -1px;"><img style=" margin-right: 30px;" src="../images/pop.gif" ><a href="#">SSL已启用</a><span style="color: #959494;">信息会在加密后发送。</span></p>
+				    		</div>
+				    	</section>
+				    	
+				    	<section class="login-right left">
+				    		<h2>尚未注册为乐天会员？</h2>
+				    		<div class="free-login">
+				    			<a href="#">创建新的日本乐天会员账户（免费）</br><span style="font-size: 14px;">并使用我们的服务</span></a>
+				    			<p style="background-image: url(../images/icon_btn_arrow.gif); position: absolute;right: 25px;top: 23px;width: 13px;height: 13px;background-repeat: no-repeat;"></p>
+				    		</div>
+				    		<div style="position: relative;border-bottom: 3px solid #EEEEEE;width: 331px;padding-bottom: 15px;"><p style="position: absolute;background-image: url(../images/info.gif);background-repeat: no-repeat;width: 20px;height: 20px;top: 5px;left: 80px;"></p><a href="#">什么是乐天会员？</a></div>
+				    	</section>
+				    </div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="footer">
+			<p style="margin-bottom: 10px;"><a href="#">隐私政策</a></br>
+				<hr size="-1" />
+				
+			</p>
+			<p style="font-size: 16px;line-height: 36px;">版权与复制；日本乐天集团版权所有。</p>
+		</div>
+		<script src="../javascript/jquery-1.11.3.js"></script>
+		<script src="../javascript/login.js"></script>
+	</body>
+</html>

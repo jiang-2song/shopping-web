@@ -1,0 +1,1225 @@
+html body{
+	width: 100%;
+	overflow-x: hidden;
+}
+/*img{
+	display: block;
+}*/
+#header{
+	width: 100%;
+	height: 30px;
+	background: #666;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.global_nav{
+	width: 1340px;
+	margin: 0 auto;
+}
+.global_nav:after{
+	  clear: both;
+      content: ".";
+      display: block;
+      height: 0;
+      visibility: hidden;
+      overflow: hidden;
+}
+.global_nav_left{
+	font-size: 14px;
+	line-height: 30px;
+	color: white;
+	float: left;
+}
+.global_nav_right{
+	height: 30px;
+	float: right;
+	position: absolute;
+	top: 0px;
+	right: 0;
+}
+.right_list{
+	margin-bottom: 0;
+	display: table;
+	height: 30px;
+}
+.right_list li{
+	position: relative;
+	height: 29px;
+	line-height: 30px;
+	padding: 0 8px;
+	font-size: 14px;	
+	float: left;
+}
+.second-nav{
+	padding: 10px;
+	position: absolute;
+	
+	width: 71px;
+	height: 75px;
+	right: -9px;
+	top: 30px;
+	z-index: 5;
+	background-image: url(../images/sprite.png);
+	background-repeat: no-repeat;
+	background-position: -151px -66px;
+	display: none;
+}
+.right_list li a{
+	color: white;
+}
+.right_list li:hover{
+	background: grey;
+}
+
+
+/*第二部分，中间部分搜索框，logo*/
+#midder{
+	width: 100%;
+}
+#midder:after{
+	  clear: both;
+      content: ".";
+      display: block;
+      height: 0;
+      visibility: hidden;
+      overflow: hidden;
+}
+#midder .theme-header{
+	height: 113px;
+	position: relative;
+}
+.header-p:after{
+	  clear: both;
+      content: ".";
+      display: block;
+      height: 0;
+      visibility: hidden;
+      overflow: hidden;
+}
+.theme-header{
+	margin: auto;
+	padding: 19px 20px 21px;
+}
+.midder-top-first{
+	width: 140px;
+	height: 40px;
+	margin-right: 20px;
+	
+}
+.midder-top-first img{
+	width: 140px;
+	height: 40px;
+}
+.table{
+	display: block;
+}
+.flied-text{
+	width: 564px;
+	height: 40px;
+	display: block;
+	float: left;
+	border: 2px solid red;
+	border-radius: 3px 0 0 3px;
+}
+.flied-search{	
+	display: block;
+	float: left;
+    background: #bf0000;
+    border-radius: 0 3px 3px 0;
+    width: 45px;
+    height: 40px;
+    border: 2px solid red;
+}
+.search-text{
+	padding-left: 3px;
+	width:562px;
+	height: 40px;
+    border: 0;
+}
+.submit-big{
+	width: 46px;
+	height: 40px;
+	color: white;
+	background: red;
+	border: 0;
+}
+.midder-top-third{
+	width: 270px;
+	height: 26px;
+	position: absolute;
+	top: 0px;
+	right: 20px;
+}
+.midder-top-third ul:after{
+	  clear: both;
+      content: ".";
+      display: block;
+      height: 0;
+      visibility: hidden;
+      overflow: hidden;
+}
+.midder-top-third ul li{
+	margin: 0 3px;
+	text-align: center;
+	font-size: 13px;
+	float: left;
+	line-height: 24px;
+	border-right: 1px solid #CCC;
+	padding: 0 12px;
+	cursor: pointer;
+}
+.china-right li{
+	position: relative;
+}
+.all-country{
+	background: white;
+	padding-left: 4px;
+	text-align: left;
+	position: absolute;
+	left: 0;
+	width: 180px;
+	height: 300px;
+	border: 1px solid blue;
+	overflow: scroll;
+	display: none;
+}
+.all-country option:hover{
+	background: blue;
+}
+.midder-top-second{
+	position: relative;
+}
+.search-name{
+	position: absolute;
+	width: 85%;
+	height: auto;
+	top: 42px;
+	border: 1px solid red;
+	z-index: 20;
+	padding: 0px 8px;
+	background: white;
+}
+.search-name ul{
+	height: auto;
+}
+.search-name li a{
+	color: #737373;
+	
+}
+.search-name li{
+	
+	margin: 8px 0;
+}
+.search-name li a:hover{
+	color:#333333;
+}
+.midder-top-third .china-right{
+	float: left;
+    margin-left: 9px;
+    border: 1px solid #D4D4D4;
+    border-top: none;
+    border-radius: 0 0 6px 6px;
+    background-color: #F7F7F7;
+}
+/*导航条下面部分*/
+.header-s:after{
+	  clear: both;
+      content: ".";
+      display: block;
+      height: 0;
+      visibility: hidden;
+      overflow: hidden;
+}
+.header-s-left{
+	padding-top: 21px;
+}
+.header-s-left li{
+	float: left;
+	font-size: 13px;
+	margin-right: 6px;
+}
+.header-s-left li a{
+	color: #666666;
+}
+.header-s-left li a:hover{
+	text-decoration: underline;
+	color: red;
+}
+.header-s-right{
+	font-size: 13px;
+    margin-top: 20px;
+	margin-right: 10px;
+    
+}
+.header-s-right .login{
+	margin-right: 20px;
+	
+}
+.login{
+	float: left;
+}
+.login a:hover{
+	text-decoration: underline;
+}
+.shopping-logo{
+	float: left;
+    margin-left:5px;
+    margin-top: -12px;
+}
+.shopping-logo a{
+	width: 26px;
+	height: 27px;
+	display: block;
+	background-image: url(../images/sprite.png);
+	background-position: -333px -260px
+}
+/*中间部分，轮播图板块以及左右两边样式*/
+.midder-container{
+	width: 100%;
+
+}
+.midder-container:after{
+	  clear: both;
+      content: ".";
+      display: block;
+      height: 0;
+      visibility: hidden;
+      overflow: hidden;
+}
+.container-left{
+	width: 1011px;
+}
+.commodity-list{
+	width: 170px;
+	float: left;
+}
+.commodity-list h2{
+	background: #666666;
+	color: #FFFFFF;
+	font-size: 14px;
+	padding: 7px 9px 8px;
+}
+.commodity-list li{
+	height: 30px;
+	position: relative;
+}
+.sport{
+	padding: 15px;
+	position: absolute;
+	width: 785px;
+	height: 378px;
+	border: 1px solid red;
+	left: 169px;
+	top: 0px;
+	background: white;
+	z-index: 30;
+	display: none;
+	overflow: hidden;
+	
+}
+
+.sport ul{
+	margin: 0 10px;
+	float: left;
+}
+.sport li{
+	line-height: 16px;
+}
+.sport li a{
+	font-size: 14px;
+	line-height: 18px;
+	color: #333333;
+}
+.commodity-list li dt span{
+	display: block;
+	position: absolute;
+	top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+	background-image: url(../images/sprite.png);
+	background-position: -278px -343px;
+    width: 21px;
+    height: 12px;
+}
+.commodity-list li dt i{
+	background-image: url(../images/sprite.png);
+    background-position: -373px -241px;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 8px;
+    margin: auto;
+    width: 6px;
+    height: 10px;
+}
+.commodity-list li dt{
+	display: block;
+    padding: 8px 10px 7px 30px;
+    background: #FCFBFB;
+    color: #666;
+    cursor: pointer;
+    position: relative;
+    z-index: 3;
+    box-sizing: border-box;
+    border-top: solid 1px #FCFBFB;
+    border-bottom: solid 1px #FCFBFB;
+    border-left: solid 1px #FCFBFB;
+}
+.commodity-list li dt a{
+	font-size: 12px;
+	color: #666666;
+}
+.commodity-list li dt a:hover{
+	text-decoration: underline;
+	color: red;
+}
+
+
+
+/*图片轮播样式*/
+.Carousel-figure{
+	width: 840px;
+	float: left;
+}
+.Carousel-figure:after{
+	  clear: both;
+      content: ".";
+      display: block;
+      height: 0;
+      visibility: hidden;
+      overflow: hidden;
+}
+.Carousel-big img{
+	display: block;
+	width: 842px;
+	height: 417px;
+	
+}
+.Carousel-big{
+	height: 417px;
+	position: relative;
+}
+.Carousel-big ul{
+	width: 840px;
+	height: 417px;
+	background: white;
+}
+.Carousel-big ul:after{
+	  clear: both;
+      content: ".";
+      display: block;
+      height: 0;
+      visibility: hidden;
+      overflow: hidden;
+}
+.Carousel-big ul li{
+	width: 840px;
+	position: absolute;
+	float: left;
+	opacity: 0;
+	transition: all 0.5s; 
+}
+.Carousel-small:after{
+	  clear: both;
+      content: ".";
+      display: block;
+      height: 0;
+      visibility: hidden;
+      overflow: hidden;
+}
+.Carousel-small ul:after{
+	  clear: both;
+      content: ".";
+      display: block;
+      height: 0;
+      visibility: hidden;
+      overflow: hidden;
+}
+.Carousel-small li{
+	float: left;
+}
+.circle-img{
+	padding-top: 24px;
+	padding-left: 7px;
+	margin-top: 430px;
+}
+.circle-img-top{
+	padding-left: 15px;
+	height: 350px;
+	margin-bottom: -46px;
+}
+
+.circle-img-top h3{
+	font-size: 20px;
+    color: #000;
+    margin-bottom: 13px;
+    padding-left: 20px
+}
+.circle-img-top ul{
+	overflow: hidden;
+	height: 350px;
+
+}
+.circle-img-top ul li{
+	float: left;
+	width: 160px;
+	height: 160px;
+	opacity: 1;
+}
+.circle-img-top ul li:hover{
+	opacity: 0.75;
+}
+.circle-img-top ul li>a{
+	display: block;
+	text-align: center;
+	padding-top: 15px;
+	width: 130px;
+	height: 120px;
+	background: red;
+	border-radius: 50%;
+}
+.circle-img-top li p{
+	width: 128px;
+	text-align:center;
+	height: 36px;
+	font-size: 14px;
+	margin-top: 8px;
+}
+.circle-img-top li p a{
+	color: #666666;
+}
+.circle-img-top li a:hover{
+	color: red;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+.circle-img-down{
+	padding-left: 15px;
+	height: 350px;
+	margin-bottom: 46px;
+}
+
+.circle-img-down h3{
+	font-size: 20px;
+    color: #000;
+    margin-bottom: 13px;
+    padding-left: 20px
+}
+.circle-img-down ul{
+	overflow: hidden;
+	height: 350px;
+
+}
+.circle-img-down ul li{
+	float: left;
+	width: 160px;
+	height: 160px;
+	opacity: 1;
+}
+.circle-img-down ul li:hover{
+	opacity: 0.75;
+}
+.circle-img-down ul li>a{
+	display: block;
+	text-align: center;
+	padding-top: 15px;
+	width: 130px;
+	height: 120px;
+	background: red;
+	border-radius: 50%;
+}
+.circle-img-down li p{
+	width: 128px;
+	text-align:center;
+	height: 36px;
+	font-size: 14px;
+	margin-top: 45px;
+}
+.circle-img-down li p span{
+	color: #666666;
+	cursor: pointer;
+}
+.circle-img-down li span:hover{
+	color: red;
+	text-decoration: underline;
+}
+.everyday-list{
+	padding-left: 7px;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+
+/*每日排行的样式*/
+.everyday-title{
+	font-size: 20px;
+    color: #000;
+    margin-bottom: 13px;
+    padding-left: 20px;
+}
+.everyday-ranking{
+	position: absolute!important;
+	font-size: 12px;
+    right: 14px;
+    top: 4px;
+}
+.everyday-midder{
+	padding: 0 20px;
+	overflow: hidden;
+}
+.image-positiion{
+    margin: 1px 0;
+    position: absolute;
+    left: 10px;
+    top: -210px;
+    bottom: 0;
+    margin: auto;
+    color: #555555;
+    cursor: pointer;      
+    background-image: url(../images/sprite.png); 
+    background-position: -373px -78px;
+    width: 10px;
+    height: 18px;
+    
+    content: "";
+    padding-left:15px;
+}
+.everyday-dity ul{
+	margin-bottom: 15px;
+}
+.everyday-dity ul:after{
+	  clear: both;
+      content: ".";
+      display: block;
+      height: 0;
+      visibility: hidden;
+      overflow: hidden;
+}
+.everyday-dity li{
+	float: left;
+	margin-right: 2px;
+	margin-left: 8px;
+	font-size: 13px;
+	padding: 8px 10px;
+	color: #cccccc;
+    border-radius: 3px;
+    border: 1px solid #e9e9e9;
+    cursor: pointer;
+}
+.image-positiion-right{
+	 margin: 1px 0;
+    position: absolute;
+    right: 10px;
+    top: -210px;
+    bottom: 0;
+    margin: auto;
+    color: #555555;
+    cursor: pointer;      
+    background-image: url(../images/sprite.png); 
+    background-position:-365px -106px;
+    width: 10px;
+    height: 18px;
+    
+    content: "";
+    padding-left:15px;
+}
+.down-arrow-left{
+	position: absolute;
+    color: #555555;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "rkt-font";
+    line-height: 1;
+    background-image: url(../images/sprite.png);
+    top: 65px;
+    left: 10px;
+    bottom: 0;
+    position: absolute;
+    background-position: -373px -78px;
+    width: 10px;
+    height: 18px;
+    margin: auto;
+    content: "";
+    padding-left: 15px;
+}
+.img-list li{
+	width: 135px;
+	float: left;
+	margin-left: 20px;
+	overflow: hidden;
+	
+}
+.img-list li a{
+	display: block;
+	height: 128px;
+}
+.img-list{
+	position: relative;
+	height: 230px;
+	overflow: hidden;
+}
+.img-list ul{
+	position: absolute;
+	overflow: hidden;
+	width: auto;
+	z-index: -10;
+}
+.img-list ul:after{
+	  clear: both;
+      content: ".";
+      display: block;
+      height: 0;
+      visibility: hidden;
+      overflow: hidden;
+}
+.minlogo{
+	display: block;
+	color:orange;
+	font-size: 30px;
+	font-weight: 700;
+}
+.commdity-text{
+	font-size: 10px;
+}
+.down-arrow-right{
+	background-image:url(../images/sprite.png);
+    top: 10px;
+    bottom: 0;
+    position: absolute;
+    background-position: -373px -106px;
+    width: 10px;
+    height: 18px;
+    margin: auto;
+    right:14px;
+    top: 65px;
+    position: absolute;
+    color: #555555;
+    cursor: pointer;
+}
+/*中间内容右边部分*/
+.container-right{
+	width: 338px;
+	float: right;
+}
+.image-first img{
+	display: block;
+	width: 339px;
+}
+.zhifubao{
+	overflow: hidden;
+}
+.zhifubao img{
+	display: block;
+	border: 1px solid #CCCCCC;
+	float: left;
+}
+
+.safe-shopping{
+	width: 100%;
+	height: 170px;
+	background: blue;
+}
+.weixin{
+	width: 100%;
+	height: 170px;
+	background:purple;
+}
+.rakuten{
+	width: 100%;
+	height: 170px;
+	background:green;
+}
+.japan-brand{
+	width: 100%;
+	height: 235px;
+	padding-left: 5px;
+	padding-top: 31px;
+	border-bottom: 1px solid #C3C3C3;
+	background: #ECECEC;
+}
+.japan-brand h2{
+	font-size: 16px;
+    color: #000;
+    text-align: center;
+}
+.japan-brand ul:after{
+	  clear: both;
+      content: " ";
+      display: block;
+      height: 0;
+      visibility: hidden;
+      overflow: hidden;
+}japan-brand
+.brand-type li{
+	float: left;
+	margin: 4px 10px 4px;
+	
+}
+.brand-type{
+	overflow: hidden;
+	padding: 3px;
+}
+.brand-type li{
+	width: 90px;
+	float: left;
+	margin: 5px 8px;
+}
+.brand-type li:nth-of-type(1) a{
+	display: block;
+	width: 90px;
+	height: 40px;
+	background-image: url(../images/sprite_cn_right.png);
+	background-position: -100px -150px;
+	
+}
+.brand-type li:nth-of-type(2) a{
+	display: block;
+	width: 90px;
+	height: 40px;
+	background-image: url(../images/sprite_cn_right.png);
+	background-position: -200px -150px;
+	
+}
+.brand-type li:nth-of-type(3) a{
+	display: block;
+	width: 90px;
+	height: 40px;
+	background-image: url(../images/sprite_cn_right.png);
+   background-position: 0 -50px;
+}
+.brand-type li:nth-of-type(4) a{
+	display: block;
+	width: 90px;
+	height: 40px;
+	background-image: url(../images/sprite_cn_right.png);
+	background-position: 0 0;
+	
+}
+.brand-type li:nth-of-type(5) a{
+	display: block;
+	width: 90px;
+	height: 40px;
+	background-image: url(../images/sprite_cn_right.png);
+	background-position: -200px -50px;
+	
+}
+.brand-type li:nth-of-type(6) a{
+	display: block;
+	width: 90px;
+	height: 40px;
+	background-image: url(../images/sprite_cn_right.png);
+	background-position: 0 -100px;
+	
+}
+.brand-type li:nth-of-type(7) a{
+	display: block;
+	width: 90px;
+	height: 40px;
+	background-image: url(../images/sprite_cn_right.png);
+	background-position: -100px -100px;
+	
+}
+.brand-type li:nth-of-type(8) a{
+	display: block;
+	width: 90px;
+	height: 40px;
+	background-image: url(../images/sprite_cn_right.png);
+     background-position: -200px -100px;
+	
+}
+.brand-type li:nth-of-type(9) a{
+	display: block;
+	width: 90px;
+	height: 40px;
+	background-image: url(../images/sprite_cn_right.png);
+    background-position: -100px -50px;
+	
+}
+.brand-type li:nth-of-type(10) a{
+	display: block;
+	width: 90px;
+	height: 40px;
+	background-image: url(../images/sprite_cn_right.png);
+	background-position: -200px 0;
+	
+}
+.brand-type li:nth-of-type(11) a{
+	display: block;
+	width: 90px;
+	height: 40px;
+	background-image: url(../images/sprite_cn_right.png);
+    background-position: -100px 0;
+	
+}
+.brand-type li:nth-of-type(12) a{
+	display: block;
+	width: 90px;
+	height: 40px;
+	background-image: url(../images/sprite_cn_right.png);
+	background-position: 0 -150px;
+	
+}
+.hot-brand{
+	width: 100%;
+	height: 360px;
+	background: #ECECEC;
+}
+.hot-brand h2{
+	text-align: center;
+	font-size: 16px;
+    color: #000;
+    padding-top: 12px;
+    margin-bottom: 12px;
+}
+.hot-brand a{
+	float: left;
+	display: block;
+	width: 118px;
+	margin: 0 23px;
+}
+.type-sony{
+	position: relative;
+	height: 138px;
+	margin-bottom: 10px;
+}
+.type-sony img{
+	width: 128px;
+	height: 128px;
+	position: absolute;
+	margin-top: 18px;
+}
+.type-sony p{
+	font-size: 14px;
+	text-align: center;
+	color: #666666;
+}
+.type-sony p:hover{
+	text-decoration: underline;
+	color:red;
+}
+
+
+/*四大板块部分*/
+.big-plate{
+	width: 100%;
+ padding:0 3px;
+margin-top: 40px;
+}
+
+.big-plate:after{
+	  clear: both;
+      content: " ";
+      display: block;
+      height: 0;
+      visibility: hidden;
+      overflow: hidden;
+}
+
+.plate-one{
+	width: 24.6%;
+	float: left;
+}
+.plate-one-top{
+	margin-left: 5px;
+}
+.should-float li{
+	float: left;
+	width: 155px;
+	text-align: center;
+	border-right: solid 2px #60DCB8;
+	
+}
+.should-float:after{
+	  clear: both;
+      content: " ";
+      display: block;
+      height: 0;
+      visibility: hidden;
+      overflow: hidden;
+}
+.plate-one-top li a{
+	display: block;
+	width: 128px;
+}
+.nike-title{
+	font-size: 14px;
+	color: #666666;
+	height: 58px;
+	line-height: 58px;
+}
+.img-nike{
+	background-image: url(../images/sprite_cn_bottom.png);
+	width: 128px;
+	height: 128px;
+	margin-left: 15px;
+    background-position: -552px -138px;
+}
+
+
+.num-one{
+	width: 24.6%;
+	float: left;
+	margin:  0 2px;
+}
+.brand-wall{
+	padding: 10px 0 0;
+	background: #BAE6D9;
+	width: 100%;
+	height: 118px;
+}
+.brand-wall ul li{
+	float: left;
+	display: inline-block;
+    margin: 0 8px 13px;
+    background: #fff;
+    vertical-align: top;
+}
+.brand-wall li:nth-of-type(1) a{
+	display: block;
+	width: 93px;
+	height: 47px;
+	background-image: url(../images/sprite_cn_bottom.png);
+	background-position: -412px -768px;
+}
+.brand-wall li:nth-of-type(2) a{
+	display: block;
+	width: 93px;
+	height: 47px;
+	background-image: url(../images/sprite_cn_bottom.png);
+    background-position: -824px -825px;
+}
+.brand-wall li:nth-of-type(3) a{
+	display: block;
+	width: 93px;
+	height: 47px;
+	background-image: url(../images/sprite_cn_bottom.png);
+	    background-position: -206px -939px;
+}
+.brand-wall li:nth-of-type(4) a{
+	display: block;
+	width: 93px;
+	height: 47px;
+	background-image: url(../images/sprite_cn_bottom.png);
+        background-position: -974px -171px;
+}
+.brand-wall li:nth-of-type(5) a{
+	display: block;
+	width: 93px;
+	height: 47px;
+	background-image: url(../images/sprite_cn_bottom.png);
+	    background-position: -974px -114px;
+}
+.brand-wall li:nth-of-type(6) a{
+	display: block;
+	width: 93px;
+	height: 47px;
+	background-image: url(../images/sprite_cn_bottom.png);
+	background-position: -871px 0;
+}
+.brand-picture{
+	width: 100%;
+	height: 103px;
+	padding: 20px 0 32px;
+    background: #ECECEC;
+}
+.brand-picture li{
+	float: left;
+	text-align: center;
+	padding: 0 5px;
+	margin: 0 12px;
+}
+.brand-picture li a{
+	display: block;
+}
+.brand-picture .brand-title{
+	font-size: 12px;
+    margin-bottom: 9px;
+    height: 24px;
+    color: #666666;
+}
+.brand-picture .brand-thumb{
+	background-image:url(../images/sprite_cn_bottom.png);
+	background-position: -690px -390px;
+    width: 68px;
+    height: 68px;
+    margin: 0 auto;
+}
+
+
+.module-four{
+	width: 100%;
+	padding: 0 1px;
+}
+.module-four:after{
+	  clear: both;
+      content: ".";
+      display: block;
+      height: 0;
+      visibility: hidden;
+      overflow: hidden;
+}
+.part-five{
+	width: 100%;
+	margin: 58px auto 53px;
+}
+.part-five:after{
+	  clear: both;
+      content: ".";
+      display: block;
+      height: 0;
+      visibility: hidden;
+      overflow: hidden;
+}
+.shopping-help{
+	float: left;
+	    width: 33%;
+	    border-right: solid 1px #D5D5D5;
+}
+.shopping-help a{
+	display: block;
+	padding: 0 28px 0 100px;
+    position: relative;
+    color: #737373;
+
+}
+.shopping-help a:hover{
+	text-decoration: underline;
+	color: red;
+}
+.font-logo{
+	background-position: -242px -165px;
+    width: 47px;
+    height: 46px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 34px;
+    background-image: url(../images/sprite.png);
+}
+.upper-case{
+	font-size: 14px;
+	color: red;
+	font-weight: 700;
+	margin-bottom: 13px;
+}
+.lower-case{
+	font-size: 12px;
+}
+
+
+/*尾部样式*/
+#footer{
+	width: 100%;	
+}
+#footer .footer-top{
+	padding:12px 12px ;
+	width: 100%;
+	background: #EEEEEE;
+	height: 350px;
+	margin-bottom: 30px;
+}
+.shopping-infomation{
+	margin-bottom: 15px;
+	
+}
+.shopping-infomation:after{
+	  clear: both;
+      content: ".";
+      display: block;
+      height: 0;
+      visibility: hidden;
+      overflow: hidden;
+}
+.shopping-infomation h3{
+	color: #333333;
+	font-size: 16px;
+	line-height: 15px;
+	margin-bottom: 20px;
+	
+}
+.shopping-infomation ul{
+	width: 25%;
+	float: left;
+}
+.shopping-infomation ul li a{
+	color: #737373;
+	font-size: 14px;
+	line-height: 10px;
+}
+.weibo-chat{
+	margin: 10px 0;
+}
+.weibo-chat a{
+	display: block;
+	
+	background-image: url(../images/9525779d3d458304a2e26e89719b14a9.png);
+    height: 32px;
+    width: 32px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+.market-cooperate a{
+	color: #737373;
+	font-size:14px;
+	margin: 0 3px;
+}
+.market-cooperate a:hover{
+	text-decoration: underline;
+}
+.shopping-caluse p{
+	margin: 7px 0;
+}
+.last-logo{
+	text-align: center;
+	width: 100%;
+	
+}
+.last-logo i{
+	font-style: normal;
+	font-weight: 900;
+	color: red;
+}
+.laywer-list{
+	text-align: center;
+}
+.laywer-list a{
+	margin: 0 5px;
+	color: #113d6b;
+	font-size: 12px;
+}
+.footer-down{
+	width: 100%;
+	padding: 0 50px;
+}
+.english-calls ul li{
+	float: left;
+	padding-right: 50px;
+}
+.english-calls{
+	margin-bottom: 15px;
+}
+.english-calls li a{
+	font-size: 16px;
+}
+.finally-last{
+	text-align: center;
+	margin-bottom: 15px;
+}
